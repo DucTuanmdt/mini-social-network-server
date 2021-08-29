@@ -7,7 +7,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -22,7 +21,6 @@ import com.tuanmd.socialnetwork.repository.PostRepository;
 import com.tuanmd.socialnetwork.service.PostService;
 
 @RestController
-@CrossOrigin("http://localhost:3000")
 public class PostController {
 
 	@Autowired
